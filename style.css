@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*this is how to make a comment*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+body {
+    font-family: arial;
+    font-size: 18px;    
+}
+
+h1, h2{
+    font-size: 40px;
+    font-family: sans-serif; arial;
+    color: #171717;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main-text{
+    margin-bottom: 20px;
+}
+
+.author-box{
+    padding-top: 20px;
+    border-top: 5px solid #d3d3d3;
+    
+}
+
+.author-text {
+    float: left;
+    margin-top: 35px;
+     margin-left: 10px
+    
+}
+.container {
+    width: 1040px;
+    margin: 40px auto 0 auto;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+.other-post {
+    width: 25%;
+    float: left;
+}
+/*this bottom .other class is for the extra posts so that they are seperated*/
+.other {
+    margin-bottom: 40px;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+.other {
+    margin-bottom: 40px:
+}
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;   
+}
+
+.blog-post img{
+    height: 120px;
+    width: auto;
+    
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
